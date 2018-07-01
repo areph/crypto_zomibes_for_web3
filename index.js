@@ -8,7 +8,6 @@ if (typeof web3 !== 'undefined') {
 } else {
   // set the provider you want from Web3.providers
   alert("please install meta mask.")
-  return;
   // web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 }
 
